@@ -4,7 +4,7 @@ const cars = require('./routes/cars');
 const models = require('./routes/models');
 
 app.use('/cars', cars)
-app.use('/models', cars)
+app.use('/models', models)
 
 app.get('/', (req, res) => {
 	res.status(200).json( { message: 'Connected!'} )
