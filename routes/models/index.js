@@ -1,3 +1,8 @@
+/* =====================================
+    This is for getting models,
+    and getting cars by model
+===================================== */
+
 const models = require('express').Router();
 
 const all = require('./all');

@@ -1,3 +1,7 @@
+/* =====================================
+		This is the master app file
+===================================== */
+
 // Bring in our dependencies
 const app = require('express')();
 const cars = require('./routes/cars');
