@@ -7,10 +7,11 @@ const cars = require('express').Router(); // This is a new instance of the Route
 /// all(), and
 // delete()
 
-const all = require('./all.js');
+const all = require('./all');
+const single = require('./single');
 
 cars.get('/', all);
-
+cars.get('/:carId', single)
 
 
 
